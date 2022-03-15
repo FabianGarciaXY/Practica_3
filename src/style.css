@@ -1,0 +1,110 @@
+a {text-decoration: none;}
+
+
+body {
+    background: linear-gradient(to right, rgb(253, 253, 235), rgb(240, 240, 255));
+    color: rgb(3, 14, 14);
+    margin: 0;
+} 
+.logo {
+    display: flex;
+    gap: 20px;
+}
+#logo-image {
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.top {
+    color: antiquewhite;
+    background-color: rgb(27, 27, 27);
+}
+
+nav {
+    font-size: 20px;
+    background-color: rgba(28, 10, 107, 0.199);
+    display: flex;
+    padding: 20px 30px 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: bold;
+}
+li {
+    font-style: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.carrusel-and-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.titles {
+    color: aliceblue;
+    margin-top: 40px;
+    max-width: 400px;
+}
+#carouselExampleFade {
+    margin-top: 35px;
+    margin-bottom:150px;
+    width: 400px;
+    max-height: 200px;
+    border-radius: 3px;
+}
+.d-block.w-100{
+    max-height: 330px;
+    width: auto;
+    border-radius: 5%;
+}
+footer {
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.137);
+    padding: 15px;
+}
+
+
+.middle {
+    display: grid;
+    padding: 40px;
+}
+.grid-cakes {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgba(26, 105, 72, 0.288);
+    padding: 20px;
+}
+#ubicacion {
+    padding: 40px;
+}
+#precios {
+    padding: 40px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-decoration-color: none;
+    list-style: none;
+    list-style-type: none;
+}
+a, u {
+    text-decoration: none;
+}  
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+ul {   list-style-type: none;   padding: 0;   margin: 0; } 
